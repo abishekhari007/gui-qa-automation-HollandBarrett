@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Holland_Barrett_StepDfn">
+			<child name="HollandAndBarrett_StepDfn" key="{1D1E0CDD-A6CB-4016-995C-4E8EEE3EBE09}" path="HollandAndBarrett_StepDfn.js" />
+		</folder>
+		<folder name="TestLibrary">
+			<child name="bc_Common" key="{310338F0-A1F5-4D03-8C6E-7E7D3D0AFE8E}" path="bc_Common.js" />
+			<child name="bc_HBCreateAccount" key="{DB7CF70C-0D51-4FE3-B015-CAC2E45D1162}" path="bc_HBCreateAccount.js" />
+			<child name="bc_HBVitaminsAndSupplements" key="{70615A58-751A-40E2-90D0-49F3958EB71C}" path="bc_HBVitaminsAndSupplements.js" />
+			<child name="bc_HBSportsNutrition" key="{84BA7AEA-0B21-4EBE-A598-82C534C796D0}" path="bc_HBSportsNutrition.js" />
+			<child name="bc_HBBasketNCheckOut" key="{15B4DE65-DCA3-4F2D-8C3B-2FD0BE2B5D41}" path="bc_HBBasketNCheckOut.js" />
+		</folder>
+	</children>
+</Root>

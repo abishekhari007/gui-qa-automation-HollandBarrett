@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 16">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="owner id" type="I" value="15"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8976490857"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="message" type="S" value="START BUSINESS COMPONENT - fFillFormToCreateAccount"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 15">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8976489352"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="message" type="S" value="Then I create a new account by giving all the required data"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8976123611"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiMun01WOAAAAlZJREFUWMPdly1s20AUx/+ODCptij0FGERrKhsEbF2mTQqoWsk8JIXugAOTkRiabTAwJWvZErAGriTcUqKCkq1KBwJcpZ0KDKr5Kk0qsOShWf64+CNzFWnH7Du/3//ee773jnFdF+scBax5sGkXEscWT6yBObENTImBe4cE5ossh11Oxh4v40BoSRzLX6WxyySFgDi2qJuaObKGmXamCCp6Uj9RSKyA8d2p25m3IrtNO4osh6PqAI1Sk8ksQDc19/j2MJc4t8td9KQ+kzoJ84QDwPHtIXRTc1N5YHx36r77sf8oGf/lxddIOAICiGOL2+db5qoxT5MTs/oikJiFkOsfDQ4A9w6BbmomNQeIY4tZf7W4neqVD3j5pBaZG1lDEMcWIwJOrIGZF3z8yoBe+YhxzaCK8LM8ARPbyA2+/fQ1AIBjeYxrBoosF1jnZ3kCpmS5ANoukuBxw88q+BOEZnTy5humb7/jU/VzZjhxbDQu5Iht/3NsNfQbPRBaVBFJ8MvfF1TbNw8LN1bA841KxGhYxKpwANjc2GJiBfx8uEZn3oq8/yviX+DUk3DzjHdpeaAIKo6qg7Q9Qyp4keVws2MHPbDLydTFI2tI9cSq8DDLE7DHy0s/SBKR1e1+lhcC4thi5eyZmdTlhMORFQ4A1zu/vILkeYBj+StFUGM/DHtiFbgiqPBXw5XKsSKoeF/W0Jm3MsFp5XjtDUnkHGiUmky73M0d3i53qc0p9SDqSf1cRcQ1pWtvy2OLUaPUZGb1hZT0dyxL1Fl9IcXBU92M1n41++9vx38AoNJrUz8FYVwAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;passed&lt;/b&gt;: Aliases.browser.pageHoll...eal.imageHollandBarrett.Exists&lt;b&gt; equals &lt;/b&gt;true.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;&lt;a href='lnamemapping://{6D4406A8-305A-4747-A73B-E3767987884F}.{1C6846A5-A8DD-4E0E-93D1-F3C72BEBFF36}'&gt;Aliases.browser.pageHollandBarrettUkSLeadingHeal.imageHollandBarrett&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;Exists&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;equals&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;true&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;true&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="message" type="S" value="The property checkpoint passed: Exists equals true."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8974819213"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="URL: https://www.hollandandbarrett.com/&#xA;&#xA;Aliases.browser"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="Navigating to the https://www.hollandandbarrett.com/ page."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 0">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8973400694"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="8"/>
+			<Prp name="message" type="S" value="Test Case 1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 12">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="owner id" type="I" value="10"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8976178472"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="Hover at point (24, 19).&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageHollandBarrettUkSLeadingHeal.navMyAccount.linkAccount&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.hollandandbarrett.com/&quot;).FindElement(&quot;//a[.='Account']&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The mouse pointer hovered over the window."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 36">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="36"/>
+			<Prp name="line no" type="I" value="49"/>
+			<Prp name="owner id" type="I" value="32"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8979728588"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="message" type="S" value="True"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8976125231"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="message" type="S" value="END BUSINESS COMPONENT - fNavigateToApplication"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8973408796"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="message" type="S" value="START BUSINESS COMPONENT - fNavigateToApplication"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 30">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="379"/>
+					<Prp name="object right" type="I" value="971"/>
+					<Prp name="click point y" type="I" value="462"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageRegisterHollandBarrettTheUkS.articleCreateAnAccount.formFirstName.buttonCreateAnAccount"/>
+					<Prp name="object bottom" type="I" value="486"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="675"/>
+					<Prp name="datetime" type="D" value="45100.6686232986"/>
+					<Prp name="image file name" type="S" value="visImage15.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="38"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="438"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="30"/>
+			<Prp name="line no" type="I" value="38"/>
+			<Prp name="owner id" type="I" value="15"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8977941551"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageRegisterHollandBarrettTheUkS.articleCreateAnAccount.formFirstName.buttonCreateAnAccount&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.hollandandbarrett.com/auth/signup&quot;).FindElement(&quot;//button[.='Create an account']&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 39">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="39"/>
+			<Prp name="line no" type="I" value="43"/>
+			<Prp name="owner id" type="I" value="32"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.898272037"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="message" type="S" value="Browser Instance...Closed"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 13">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="960"/>
+					<Prp name="object right" type="I" value="1056"/>
+					<Prp name="click point y" type="I" value="227"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHollandBarrettUkSLeadingHeal.navMyAccount.linkCreateAccount"/>
+					<Prp name="object bottom" type="I" value="235"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="1008"/>
+					<Prp name="datetime" type="D" value="45100.66847875"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="219"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="owner id" type="I" value="10"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.897647662"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (48, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageHollandBarrettUkSLeadingHeal.navMyAccount.linkCreateAccount&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.hollandandbarrett.com/&quot;).FindElement(&quot;//a[.='Create Account']&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8976124884"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="message" type="S" value="Navigated to homepage successfully"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="line no" type="I" value="27"/>
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8975498495"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="message" type="S" value="END BUSINESS COMPONENT - fAcceptCookiesIfPoppedUp"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 27">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="379"/>
+					<Prp name="object right" type="I" value="971"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageRegisterHollandBarrettTheUkS.articleCreateAnAccount.formFirstName.passwordboxConfirmPassword"/>
+					<Prp name="object bottom" type="I" value="675"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="45100.6686005671"/>
+					<Prp name="image file name" type="S" value="visImage12.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="35"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="629"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="27"/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="owner id" type="I" value="15"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8977690509"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageRegisterHollandBarrettTheUkS.articleCreateAnAccount.formFirstName.passwordboxConfirmPassword&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.hollandandbarrett.com/auth/signup&quot;).FindElement(&quot;//input[@id=(//label[.='Confirm password']/@for)]&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The text 'Test@1234' was entered in the text editor."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 32">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="32"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8977956597"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="message" type="S" value="Then I verify if the account has been created successfully"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 1" type="S" value="{310338F0-A1F5-4D03-8C6E-7E7D3D0AFE8E}"/>
+			<Prp name="unit 0" type="S" value="HollandBarrettSuite\Scenarios\HollandBarretTestScenarios.feature.feature"/>
+			<Prp name="unit 2" type="S" value="{DB7CF70C-0D51-4FE3-B015-CAC2E45D1162}"/>
+		</Node>
+		<Node name="message 37">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="37"/>
+			<Prp name="line no" type="I" value="55"/>
+			<Prp name="owner id" type="I" value="32"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8979731366"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="message" type="S" value="Account Already Existed"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.897540162"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="message" type="S" value="START BUSINESS COMPONENT - fAcceptCookiesIfPoppedUp"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 14">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="owner id" type="I" value="10"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8976482986"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="message" type="S" value="END BUSINESS COMPONENT - fNavigateToCreateAAccountPage"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 22">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="379"/>
+					<Prp name="object right" type="I" value="971"/>
+					<Prp name="click point y" type="I" value="402"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageRegisterHollandBarrettTheUkS.articleCreateAnAccount.formFirstName.emailinputEmailAddress"/>
+					<Prp name="object bottom" type="I" value="425"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="675"/>
+					<Prp name="datetime" type="D" value="45100.6685773843"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="28"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="379"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="line no" type="I" value="28"/>
+			<Prp name="owner id" type="I" value="15"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8977467477"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (296, 23) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageRegisterHollandBarrettTheUkS.articleCreateAnAccount.formFirstName.emailinputEmailAddress&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.hollandandbarrett.com/auth/signup&quot;).FindElement(&quot;//input[@id=(//label[.='Email address']/@for)]&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 21">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="691"/>
+					<Prp name="object right" type="I" value="971"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageRegisterHollandBarrettTheUkS.articleCreateAnAccount2.formFirstName2.fieldsetFirstName2.textboxLastName"/>
+					<Prp name="object bottom" type="I" value="333"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="45100.6685712384"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="26"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="287"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="line no" type="I" value="26"/>
+			<Prp name="owner id" type="I" value="15"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8977398843"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageRegisterHollandBarrettTheUkS.articleCreateAnAccount2.formFirstName2.fieldsetFirstName2.textboxLastName&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.hollandandbarrett.com/auth/signup&quot;).FindElement(&quot;//input[@id=(//label[.='Last name']/@for)]&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The text 'TALName' was entered in the text editor."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 34">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="-8"/>
+					<Prp name="object right" type="I" value="1374"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.BrowserWindow"/>
+					<Prp name="object bottom" type="I" value="736"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="45100.6686296528"/>
+					<Prp name="image file name" type="S" value="visImage16.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="45"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="-8"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="34"/>
+			<Prp name="line no" type="I" value="45"/>
+			<Prp name="owner id" type="I" value="32"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8977971991"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.BrowserWindow&#xA;(Sys.Browser(&quot;chrome&quot;).BrowserWindow(0))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The 'Register | Holland &amp; Barrett - the UK's Leading Health Retailer - Google Chrome' window was maximized."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 25">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="379"/>
+					<Prp name="object right" type="I" value="971"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageRegisterHollandBarrettTheUkS.articleCreateAnAccount.formFirstName.passwordboxCreateAPassword"/>
+					<Prp name="object bottom" type="I" value="533"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="45100.6685908681"/>
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="32"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="487"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="owner id" type="I" value="15"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8977607176"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageRegisterHollandBarrettTheUkS.articleCreateAnAccount.formFirstName.passwordboxCreateAPassword&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.hollandandbarrett.com/auth/signup&quot;).FindElement(&quot;//input[@id=(//label[.='Create a password']/@for)]&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The text 'Test@1234' was entered in the text editor."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8976134259"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="message" type="S" value="Then I click Create Account icon available under accounts module"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 19">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="379"/>
+					<Prp name="object right" type="I" value="659"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageRegisterHollandBarrettTheUkS.articleCreateAnAccount.formFirstName.fieldsetFirstName.textboxFirstName"/>
+					<Prp name="object bottom" type="I" value="333"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="45100.6685593056"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="23"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="287"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="owner id" type="I" value="15"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.897728669"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageRegisterHollandBarrettTheUkS.articleCreateAnAccount.formFirstName.fieldsetFirstName.textboxFirstName&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.hollandandbarrett.com/auth/signup&quot;).FindElement(&quot;//input[@id=(//label[.='First name']/@for)]&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The text 'TAFName' was entered in the text editor."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 24">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="379"/>
+					<Prp name="object right" type="I" value="971"/>
+					<Prp name="click point y" type="I" value="510"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageRegisterHollandBarrettTheUkS.articleCreateAnAccount.formFirstName.passwordboxCreateAPassword"/>
+					<Prp name="object bottom" type="I" value="533"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="675"/>
+					<Prp name="datetime" type="D" value="45100.6685878935"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="31"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="487"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="line no" type="I" value="31"/>
+			<Prp name="owner id" type="I" value="15"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8977561111"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (296, 23) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageRegisterHollandBarrettTheUkS.articleCreateAnAccount.formFirstName.passwordboxCreateAPassword&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.hollandandbarrett.com/auth/signup&quot;).FindElement(&quot;//input[@id=(//label[.='Create a password']/@for)]&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 31">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="39"/>
+			<Prp name="owner id" type="I" value="15"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8977947569"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="message" type="S" value="END BUSINESS COMPONENT - fFillFormToCreateAccount"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 20">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="691"/>
+					<Prp name="object right" type="I" value="971"/>
+					<Prp name="click point y" type="I" value="310"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageRegisterHollandBarrettTheUkS.articleCreateAnAccount2.formFirstName2.fieldsetFirstName2.textboxLastName"/>
+					<Prp name="object bottom" type="I" value="333"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="831"/>
+					<Prp name="datetime" type="D" value="45100.6685664699"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="25"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="287"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="owner id" type="I" value="15"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8977363194"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (140, 23) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageRegisterHollandBarrettTheUkS.articleCreateAnAccount2.formFirstName2.fieldsetFirstName2.textboxLastName&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.hollandandbarrett.com/auth/signup&quot;).FindElement(&quot;//input[@id=(//label[.='Last name']/@for)]&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 11">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="owner id" type="I" value="10"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8976136343"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="message" type="S" value="START BUSINESS COMPONENT - fNavigateToCreateAAccountPage"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 35">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="35"/>
+			<Prp name="line no" type="I" value="49"/>
+			<Prp name="owner id" type="I" value="32"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="date" type="D" value="45100.8979727315"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageRegisterHollandBarrettTheUkS.&amp;#8203;&lt;a href=&quot;namemapping://{6D4406A8-305A-4747-A73B-E3767987884F}.{E7625E3D-065C-4CCC-9C7D-02EC30F89AD1}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textnodeAccountCreated&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//article/div/h4&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://54Wh5r2zAQAEAHJvb3QGAAYAY29uZmlnAQAVAERlZmF1bHQgQ29uZmlndXJhdGlvbgIAbm0BACQA&#xA;RTc2MjVFM0R4MDY1Q3g0Q0NDeDlDN0R4MDJFQzMwRjg5QUQxBAB0eXBlAQALAFJlY29nbml0aW9u&#xA;CQBwcm9wY291bnQAAAAABABtb2RlAAACAAcAcHJvamVjdAEAJAA2RDQ0MDZBOHgzMDVBeDQ3NDd4&#xA;QTczQnhFMzc2Nzk4Nzg4NEYEAAcAbWF0Y2hlZAAAAAAFAG5hbWVzAAAAAAsAZm91bmR2YWx1ZXMD&#xA;AAEAMgEAw6kAQDJGMDAyRjAwNjgwMDM0MDA1QjAwNjMwMDZGMDA2RTAwNzQwMDYxMDA2OTAwNkUw&#xA;MDczMDAyODAwNDAwMDYzMDA2QzAwNjEwMDczMDA3MzAwMkMwMDIwMDAyNzAwNTQwMDY4MDA2MTAw&#xA;NkUwMDZCMDA1OTAwNkYwMDc1MDA1RjAwNzQwMDY4MDA2MTAwNkUwMDZCMDA1RjAwNzkwMDZGMDA3&#xA;NTAwNUYwMDY4MDA2NTAwNjEwMDY0MDA2NTAwNzIwMDVGMDA1RjAwMzQwMDM2MDA1MTAwNkMwMDQ5&#xA;MDAyNzAwMjkwMDVEMDABADEBAGUAQDJGMDAyRjAwNjgwMDM0MDA1QjAwMkUwMDNEMDAyNzAwNDEw&#xA;MDYzMDA2MzAwNkYwMDc1MDA2RTAwNzQwMDIwMDA2MzAwNzIwMDY1MDA2MTAwNzQwMDY1MDA2NDAw&#xA;MjcwMDVEMDABADABAEEAQDJGMDAyRjAwNjEwMDcyMDA3NDAwNjkwMDYzMDA2QzAwNjUwMDJGMDA2&#xA;NDAwNjkwMDc2MDAyRjAwNjgwMDM0MDAAAAYAdmFsdWVzAwABADIBAEEAQDJGMDAyRjAwNjEwMDcy&#xA;MDA3NDAwNjkwMDYzMDA2QzAwNjUwMDJGMDA2NDAwNjkwMDc2MDAyRjAwNjgwMDM0MDABADEBAMOp&#xA;AEAyRjAwMkYwMDY4MDAzNDAwNUIwMDYzMDA2RjAwNkUwMDc0MDA2MTAwNjkwMDZFMDA3MzAwMjgw&#xA;MDQwMDA2MzAwNkMwMDYxMDA3MzAwNzMwMDJDMDAyMDAwMjcwMDU0MDA2ODAwNjEwMDZFMDA2QjAw&#xA;NTkwMDZGMDA3NTAwNUYwMDc0MDA2ODAwNjEwMDZFMDA2QjAwNUYwMDc5MDA2RjAwNzUwMDVGMDA2&#xA;ODAwNjUwMDYxMDA2NDAwNjUwMDcyMDA1RjAwNUYwMDM0MDAzNjAwNTEwMDZDMDA0OTAwMjcwMDI5&#xA;MDA1RDAwAQAwAQBlAEAyRjAwMkYwMDY4MDAzNDAwNUIwMDJFMDAzRDAwMjcwMDQxMDA2MzAwNjMw&#xA;MDZGMDA3NTAwNkUwMDc0MDAyMDAwNjMwMDcyMDA2NTAwNjEwMDc0MDA2NTAwNjQwMDI3MDA1RDAw&#xA;AAA=&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8973406134"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="message" type="S" value="Given I navigate to the application"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 23">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="379"/>
+					<Prp name="object right" type="I" value="971"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageRegisterHollandBarrettTheUkS.articleCreateAnAccount.formFirstName.emailinputEmailAddress"/>
+					<Prp name="object bottom" type="I" value="425"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="45100.6685813657"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="29"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="379"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="line no" type="I" value="29"/>
+			<Prp name="owner id" type="I" value="15"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8977506366"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageRegisterHollandBarrettTheUkS.articleCreateAnAccount.formFirstName.emailinputEmailAddress&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.hollandandbarrett.com/auth/signup&quot;).FindElement(&quot;//input[@id=(//label[.='Email address']/@for)]&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The text 'tafname.talname@testautomation.com' was entered in the text editor."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 38">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="38"/>
+			<Prp name="line no" type="I" value="57"/>
+			<Prp name="owner id" type="I" value="32"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8979731597"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="message" type="S" value="END BUSINESS COMPONENT - fVerifySuccessfullAccountCreation"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 17">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="-8"/>
+					<Prp name="object right" type="I" value="1374"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.BrowserWindow"/>
+					<Prp name="object bottom" type="I" value="736"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="45100.6684827894"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="-8"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="owner id" type="I" value="15"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8976502894"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.BrowserWindow&#xA;(Sys.Browser(&quot;chrome&quot;).BrowserWindow(0))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The 'Holland &amp; Barrett - UK's Leading Health &amp; Wellbeing Store - Google Chrome' window was maximized."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 26">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="379"/>
+					<Prp name="object right" type="I" value="971"/>
+					<Prp name="click point y" type="I" value="652"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageRegisterHollandBarrettTheUkS.articleCreateAnAccount.formFirstName.passwordboxConfirmPassword"/>
+					<Prp name="object bottom" type="I" value="675"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="675"/>
+					<Prp name="datetime" type="D" value="45100.6685979282"/>
+					<Prp name="image file name" type="S" value="visImage11.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="34"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="629"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="26"/>
+			<Prp name="line no" type="I" value="34"/>
+			<Prp name="owner id" type="I" value="15"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8977661574"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (296, 23) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageRegisterHollandBarrettTheUkS.articleCreateAnAccount.formFirstName.passwordboxConfirmPassword&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.hollandandbarrett.com/auth/signup&quot;).FindElement(&quot;//input[@id=(//label[.='Confirm password']/@for)]&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 28">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="403"/>
+					<Prp name="object right" type="I" value="471"/>
+					<Prp name="click point y" type="I" value="461"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageRegisterHollandBarrettTheUkS.articleCreateAnAccount.formFirstName.labelNotToday.textnodeNotTodaywhatIsRewardsFor"/>
+					<Prp name="object bottom" type="I" value="472"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="437"/>
+					<Prp name="datetime" type="D" value="45100.6686099421"/>
+					<Prp name="image file name" type="S" value="visImage13.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="450"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="28"/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="owner id" type="I" value="15"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.897778912"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (34, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageRegisterHollandBarrettTheUkS.articleCreateAnAccount.formFirstName.labelNotToday.textnodeNotTodaywhatIsRewardsFor&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.hollandandbarrett.com/auth/signup&quot;).FindElement(&quot;//span[.='Not today']&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 33">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="33"/>
+			<Prp name="line no" type="I" value="43"/>
+			<Prp name="owner id" type="I" value="32"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8977958565"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="message" type="S" value="START BUSINESS COMPONENT - fVerifySuccessfullAccountCreation"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 18">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="379"/>
+					<Prp name="object right" type="I" value="659"/>
+					<Prp name="click point y" type="I" value="310"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageRegisterHollandBarrettTheUkS.articleCreateAnAccount.formFirstName.fieldsetFirstName.textboxFirstName"/>
+					<Prp name="object bottom" type="I" value="333"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="519"/>
+					<Prp name="datetime" type="D" value="45100.6685535532"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="22"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="287"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="owner id" type="I" value="15"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8977245255"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (140, 23) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageRegisterHollandBarrettTheUkS.articleCreateAnAccount.formFirstName.fieldsetFirstName.textboxFirstName&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.hollandandbarrett.com/auth/signup&quot;).FindElement(&quot;//input[@id=(//label[.='First name']/@for)]&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="1037"/>
+					<Prp name="object right" type="I" value="1187"/>
+					<Prp name="click point y" type="I" value="323"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHollandBarrettUkSLeadingHeal.buttonOnetrustAcceptBtnHandler"/>
+					<Prp name="object bottom" type="I" value="348"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="1112"/>
+					<Prp name="datetime" type="D" value="45100.6683782755"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="25"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="298"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8975470718"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="A click at point (75, 25) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageHollandBarrettUkSLeadingHeal.buttonOnetrustAcceptBtnHandler&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.hollandandbarrett.com/&quot;).FindElement(&quot;#onetrust-accept-btn-handler&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 29">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="403"/>
+					<Prp name="object right" type="I" value="656"/>
+					<Prp name="click point y" type="I" value="708"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageRegisterHollandBarrettTheUkS.articleCreateAnAccount.formFirstName.labelIAgreeToTheWebsite.textnodeIAgreeToTheWebsite"/>
+					<Prp name="object bottom" type="I" value="718"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="529"/>
+					<Prp name="datetime" type="D" value="45100.6686159375"/>
+					<Prp name="image file name" type="S" value="visImage14.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="37"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="698"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="29"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="owner id" type="I" value="15"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45100.8977851389"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (126, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageRegisterHollandBarrettTheUkS.articleCreateAnAccount.formFirstName.labelIAgreeToTheWebsite.textnodeIAgreeToTheWebsite&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.hollandandbarrett.com/auth/signup&quot;).FindElement(&quot;//span[contains(text(), 'I agree to the website')]&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

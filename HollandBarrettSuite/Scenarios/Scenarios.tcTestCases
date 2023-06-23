@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scenarios>
+	<Folder Name="Holland_Barrett_Scenarios">
+		<Feature Path="HollandBarretTestScenarios.feature.feature" />
+	</Folder>
+</Scenarios>

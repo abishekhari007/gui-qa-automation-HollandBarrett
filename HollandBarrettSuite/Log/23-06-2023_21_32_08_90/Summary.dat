@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBGAEMAMQBDAEIAOAA1ADcALQAzAEEARgBFAC0ANAA5AEYAMwAtAEIAQQBBADEALQAwAEMAQwA5ADAAQwBDAEMAMwA1ADIAOQB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwAAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="duration" type="I" value="80546"/>
+						<Prp name="name" type="S" value="Test Case 1"/>
+						<Prp name="starttime" type="D" value="45100.8973400463"/>
+						<Prp name="durationwithoutchildren" type="I" value="80546"/>
+					</Node>
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBCADIARQAyADAAQQBCADkALQBEAEMAOQAyAC0ANAAwADcARQAtAEEAMABFAEYALQAyAEMAOAAyADkANgBFADEANQAzAEQANwB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwAAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="duration" type="I" value="142161"/>
+						<Prp name="name" type="S" value="Test Case 2"/>
+						<Prp name="starttime" type="D" value="45100.8982734606"/>
+						<Prp name="durationwithoutchildren" type="I" value="142161"/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBEADYARQA2ADUAMAAxADIALQAyADEAMQA4AC0ANAAyADQANgAtAEIAOAA5ADAALQA5ADcAMgBDAEYANQA0ADgARQA2ADcARAB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwAAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="duration" type="I" value="190591"/>
+						<Prp name="name" type="S" value="Test Case 3"/>
+						<Prp name="starttime" type="D" value="45100.8999198843"/>
+						<Prp name="durationwithoutchildren" type="I" value="190591"/>
+					</Node>
+				</Node>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="duration" type="I" value="413298"/>
+				<Prp name="name" type="S" value="HollandBarrettSuite"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="failedtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="45100.8973400463"/>
+			</Node>
+		</Node>
+		<Prp name="executionstatus" type="I" value="0"/>
+		<Prp name="stop" type="D" value="45100.9021286343"/>
+		<Prp name="name" type="S" value="gui-qa-automation-HollandBarrett"/>
+		<Prp name="starttime" type="D" value="45100.8973171065"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="key" type="S" value="{DCDFB6B3-738D-4118-9AF4-758D79D55814}"/>
+		<Prp name="tests" type="I" value="3"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="user" type="S" value="WELcOME"/>
+		<Prp name="testname" type="S" value="HollandBarrettSuite: HB_Exercise"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="host" type="S" value="ABISHEK-HARI"/>
+		<Prp name="failedtests" type="I" value="0"/>
+	</Node>
+</Nodes>

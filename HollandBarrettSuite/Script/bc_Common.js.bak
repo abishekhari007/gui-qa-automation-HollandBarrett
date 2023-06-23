@@ -1,0 +1,49 @@
+﻿/**
+Business Componenet - bc_Common
+Author - Abishek Hari
+**/
+
+function fNavigateToApplication(applicationURL){
+  Log.Message("START BUSINESS COMPONENT - fNavigateToApplication");
+  Browsers.Item(btChrome).RunOptions = "-incognito";
+  Browsers.Item(btChrome).Navigate(applicationURL);
+  Delay(5000);
+  fAcceptCookiesIfPoppedUp();
+  Delay(5000);
+  if(Aliases.browser.pageHollandBarrettUkSLeadingHeal.imageHollandBarrett.Exists == true){
+    aqObject.CheckProperty(Aliases.browser.pageHollandBarrettUkSLeadingHeal.imageHollandBarrett, "Exists", cmpEqual, true);
+    Log.Checkpoint("Navigated to homepage successfully");
+  }
+  else{
+    Log.Error("Navigation to homepage is unsuccessfull");
+  }
+  Log.Message("END BUSINESS COMPONENT - fNavigateToApplication");
+}
+
+function fAcceptCookiesIfPoppedUp(){
+  Log.Message("START BUSINESS COMPONENT - fAcceptCookiesIfPoppedUp");
+  if(Aliases.browser.pageHollandBarrettUkSLeadingHeal.textnodeOnetrustPolicyText.Exists == true){
+    Aliases.browser.pageHollandBarrettUkSLeadingHeal.buttonOnetrustAcceptBtnHandler.Click();
+  }
+  Log.Message("END BUSINESS COMPONENT - fAcceptCookiesIfPoppedUp");
+}
+
+function fSignOut(){
+  Log.Message("START BUSINESS COMPONENT - fSignOut");
+  Aliases.browser.pageOverview.linkHelloTafname.HoverMouse();
+  Delay(1000);
+  Aliases.browser.pageOverview.textnodeSignOut.Click();
+  Log.Message("END BUSINESS COMPONENT - fSignOut");
+}
+
+function fCloseBrowserInstance(){
+  Log.Enabled = false;
+  Sys.Browser("chrome").Close();
+  var page = Sys.Browser().Page("*");
+  Log.Enabled = true;
+  Log.Checkpoint("Browser Instance...Closed");
+}
+
+module.exports.fCloseBrowserInstance = fCloseBrowserInstance;
+module.exports.fNavigateToApplication = fNavigateToApplication;
+module.exports.fSignOut = fSignOut;
